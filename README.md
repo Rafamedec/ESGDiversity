@@ -1,19 +1,19 @@
 # ?? ESG Diversity & Inclusion API
 
-API REST para gest„o de diversidade e inclus„o corporativa com foco em mÈtricas ESG (Environmental, Social and Governance).
+API REST para gest√£o de diversidade e inclus√£o corporativa com foco em m√©tricas ESG (Environmental, Social and Governance).
 
-## ?? Õndice
+## ?? √çndice
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [PrÈ-requisitos](#prÈ-requisitos)
-- [InstalaÁ„o e ConfiguraÁ„o](#instalaÁ„o-e-configuraÁ„o)
+- [Pr√©-requisitos](#pr√©-requisitos)
+- [Instala√ß√£o e Configura√ß√£o](#instala√ß√£o-e-configura√ß√£o)
 - [Como Executar](#como-executar)
 - [Endpoints da API](#endpoints-da-api)
-- [AutenticaÁ„o JWT](#autenticaÁ„o-jwt)
+- [Autentica√ß√£o JWT](#autentica√ß√£o-jwt)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Comandos ⁄teis](#comandos-˙teis)
+- [Comandos √öteis](#comandos-√∫teis)
 - [Banco de Dados](#banco-de-dados)
 - [Exemplos de Uso](#exemplos-de-uso)
 - [Contribuindo](#contribuindo)
@@ -22,52 +22,52 @@ API REST para gest„o de diversidade e inclus„o corporativa com foco em mÈtricas 
 
 ## ?? Sobre o Projeto
 
-Esta API foi desenvolvida para auxiliar empresas no gerenciamento e monitoramento de suas iniciativas de diversidade e inclus„o, fornecendo:
+Esta API foi desenvolvida para auxiliar empresas no gerenciamento e monitoramento de suas iniciativas de diversidade e inclus√£o, fornecendo:
 
-- ?? MÈtricas detalhadas de diversidade por departamento
+- ?? M√©tricas detalhadas de diversidade por departamento
 - ?? Acompanhamento de metas e progressos
-- ?? Gest„o de eventos de inclus„o
-- ?? An·lise de equidade salarial
-- ?? **CRUD completo de funcion·rios**
+- ?? Gest√£o de eventos de inclus√£o
+- ?? An√°lise de equidade salarial
+- ?? **CRUD completo de funcion√°rios**
 - ?? **CRUD completo de metas de diversidade**
-- ?? **CRUD completo de eventos de inclus„o**
-- ?? **AutenticaÁ„o JWT com controle de acesso baseado em roles**
+- ?? **CRUD completo de eventos de inclus√£o**
+- ?? **Autentica√ß√£o JWT com controle de acesso baseado em roles**
 
 ---
 
 ## ? Funcionalidades
 
-### ?? **AutenticaÁ„o e AutorizaÁ„o**
+### ?? **Autentica√ß√£o e Autoriza√ß√£o**
 - Login com JWT
-- Registro de novos usu·rios
+- Registro de novos usu√°rios
 - Controle de acesso baseado em roles (Admin, HR, User)
-- Tokens com expiraÁ„o configur·vel
+- Tokens com expira√ß√£o configur√°vel
 
-### ?? **Gest„o de Funcion·rios (CRUD Completo)**
-- Listar funcion·rios com paginaÁ„o e filtros
-- Criar novos funcion·rios
-- Atualizar informaÁıes de funcion·rios
-- Soft delete de funcion·rios
-- **Permissıes**: GET (Todos autenticados), POST/PUT (Admin, HR), DELETE (Admin)
+### ?? **Gest√£o de Funcion√°rios (CRUD Completo)**
+- Listar funcion√°rios com pagina√ß√£o e filtros
+- Criar novos funcion√°rios
+- Atualizar informa√ß√µes de funcion√°rios
+- Soft delete de funcion√°rios
+- **Permiss√µes**: GET (Todos autenticados), POST/PUT (Admin, HR), DELETE (Admin)
 
-### ?? **Gest„o de Metas de Diversidade (CRUD Completo)**
+### ?? **Gest√£o de Metas de Diversidade (CRUD Completo)**
 - Criar metas de diversidade por departamento
 - Acompanhar progresso das metas
 - Atualizar percentuais e status
-- Deletar metas concluÌdas
-- **Permissıes**: Apenas Admin e HR
+- Deletar metas conclu√≠das
+- **Permiss√µes**: Apenas Admin e HR
 
-### ?? **Gest„o de Eventos de Inclus„o (CRUD Completo)**
-- Criar eventos de inclus„o
-- Listar eventos com an·lise de impacto
-- Atualizar informaÁıes e status
+### ?? **Gest√£o de Eventos de Inclus√£o (CRUD Completo)**
+- Criar eventos de inclus√£o
+- Listar eventos com an√°lise de impacto
+- Atualizar informa√ß√µes e status
 - Deletar eventos
-- **Permissıes**: GET (Todos autenticados), POST/PUT (Admin, HR), DELETE (Admin)
+- **Permiss√µes**: GET (Todos autenticados), POST/PUT (Admin, HR), DELETE (Admin)
 
-### ?? **RelatÛrios e An·lises (Apenas Leitura)**
-- Diversity Metrics - An·lise de diversidade por departamento
+### ?? **Relat√≥rios e An√°lises (Apenas Leitura)**
+- Diversity Metrics - An√°lise de diversidade por departamento
 - Goal Progress - Acompanhamento de metas
-- Salary Equity - An·lise de equidade salarial (Requer Auth)
+- Salary Equity - An√°lise de equidade salarial (Requer Auth)
 
 ---
 
@@ -76,9 +76,9 @@ Esta API foi desenvolvida para auxiliar empresas no gerenciamento e monitorament
 - **Framework**: .NET 8.0
 - **ORM**: Entity Framework Core 8.0
 - **Banco de Dados**: SQL Server LocalDB
-- **AutenticaÁ„o**: JWT Bearer
-- **ValidaÁ„o**: FluentValidation 11.3.0
-- **DocumentaÁ„o**: Swagger/OpenAPI (Swashbuckle 6.5.0)
+- **Autentica√ß√£o**: JWT Bearer
+- **Valida√ß√£o**: FluentValidation 11.3.0
+- **Documenta√ß√£o**: Swagger/OpenAPI (Swashbuckle 6.5.0)
 - **Logging**: Microsoft.Extensions.Logging
 
 ### Pacotes NuGet
@@ -96,14 +96,14 @@ Esta API foi desenvolvida para auxiliar empresas no gerenciamento e monitorament
 
 ---
 
-## ?? PrÈ-requisitos
+## ?? Pr√©-requisitos
 
-Antes de comeÁar, certifique-se de ter instalado:
+Antes de come√ßar, certifique-se de ter instalado:
 
-### ObrigatÛrios
+### Obrigat√≥rios
 
 - ?? [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) ou superior
-- ??? [SQL Server LocalDB](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb) (geralmente incluÌdo com Visual Studio)
+- ??? [SQL Server LocalDB](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb) (geralmente inclu√≠do com Visual Studio)
 
 ### Recomendados
 
@@ -112,10 +112,10 @@ Antes de comeÁar, certifique-se de ter instalado:
 - ?? [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) (opcional, para gerenciar o banco)
 - ?? [Postman](https://www.postman.com/downloads/) ou [Insomnia](https://insomnia.rest/download) (opcional, para testar APIs)
 
-### Verificar InstalaÁ„o
+### Verificar Instala√ß√£o
 
 ```powershell
-# Verificar vers„o do .NET
+# Verificar vers√£o do .NET
 dotnet --version
 
 # Verificar SDKs instalados
@@ -127,16 +127,16 @@ dotnet --list-runtimes
 
 ---
 
-## ?? InstalaÁ„o e ConfiguraÁ„o
+## ?? Instala√ß√£o e Configura√ß√£o
 
-### 1. Clonar o RepositÛrio
+### 1. Clonar o Reposit√≥rio
 
 ```powershell
 git clone <url-do-repositorio>
 cd ESGDiversity.API
 ```
 
-### 2. Restaurar DependÍncias
+### 2. Restaurar Depend√™ncias
 
 ```powershell
 dotnet restore
@@ -144,7 +144,7 @@ dotnet restore
 
 ### 3. Configurar Connection String (Opcional)
 
-O projeto j· vem configurado com uma connection string padr„o. Se necess·rio, edite o arquivo `appsettings.json`:
+O projeto j√° vem configurado com uma connection string padr√£o. Se necess√°rio, edite o arquivo `appsettings.json`:
 
 ```json
 {
@@ -156,7 +156,7 @@ O projeto j· vem configurado com uma connection string padr„o. Se necess·rio, ed
 
 ### 4. Configurar JWT (Opcional)
 
-Para ambientes de produÁ„o, altere as configuraÁıes JWT em `appsettings.json`:
+Para ambientes de produ√ß√£o, altere as configura√ß√µes JWT em `appsettings.json`:
 
 ```json
 {
@@ -173,46 +173,46 @@ Para ambientes de produÁ„o, altere as configuraÁıes JWT em `appsettings.json`:
 
 ## ?? Como Executar
 
-### MÈtodo 1: Linha de Comando
+### M√©todo 1: Linha de Comando
 
 ```powershell
-# Navegar atÈ a pasta do projeto
+# Navegar at√© a pasta do projeto
 cd C:\Users\rafam\source\repos\ESGDiversity.API
 
-# Executar a aplicaÁ„o
+# Executar a aplica√ß√£o
 dotnet run
 ```
 
-### MÈtodo 2: Com Hot Reload (Recomendado para Desenvolvimento)
+### M√©todo 2: Com Hot Reload (Recomendado para Desenvolvimento)
 
 ```powershell
-# Executa e recarrega automaticamente ao salvar alteraÁıes
+# Executa e recarrega automaticamente ao salvar altera√ß√µes
 dotnet watch run
 ```
 
-### MÈtodo 3: Visual Studio
+### M√©todo 3: Visual Studio
 
 1. Abra o arquivo `ESGDiversity.API.sln`
 2. Pressione **F5** (executar com debug) ou **Ctrl+F5** (executar sem debug)
-3. Ou clique no bot„o verde ?? **ESGDiversity.API**
+3. Ou clique no bot√£o verde ?? **ESGDiversity.API**
 
-### MÈtodo 4: Visual Studio Code
+### M√©todo 4: Visual Studio Code
 
 1. Abra a pasta do projeto
-2. Pressione **F5** ou v· em **Run > Start Debugging**
+2. Pressione **F5** ou v√° em **Run > Start Debugging**
 3. Selecione **.NET Core** se solicitado
 
 ---
 
-## ?? Acessando a AplicaÁ„o
+## ?? Acessando a Aplica√ß√£o
 
-ApÛs iniciar, a aplicaÁ„o estar· disponÌvel em:
+Ap√≥s iniciar, a aplica√ß√£o estar√° dispon√≠vel em:
 
 - **HTTPS**: `https://localhost:5001`
 - **HTTP**: `http://localhost:5000`
-- **Swagger UI**: `https://localhost:5001/` (p·gina inicial)
+- **Swagger UI**: `https://localhost:5001/` (p√°gina inicial)
 
-O Swagger abrir· automaticamente no navegador mostrando toda a documentaÁ„o interativa da API.
+O Swagger abrir√° automaticamente no navegador mostrando toda a documenta√ß√£o interativa da API.
 
 ---
 
@@ -225,14 +225,14 @@ https://localhost:5001/api
 
 ### 1. Diversity Metrics
 
-#### Listar MÈtricas de Diversidade
+#### Listar M√©tricas de Diversidade
 ```http
 GET /api/DiversityMetrics
 ```
 
 **Query Parameters:**
-- `page` (int, default: 1) - N˙mero da p·gina
-- `pageSize` (int, default: 10) - Itens por p·gina (m·x: 100)
+- `page` (int, default: 1) - N√∫mero da p√°gina
+- `pageSize` (int, default: 10) - Itens por p√°gina (m√°x: 100)
 - `department` (string, optional) - Filtrar por departamento
 
 **Exemplo de Request:**
@@ -320,7 +320,7 @@ GET /api/GoalProgress?page=1&pageSize=10
 
 ### 3. Inclusion Events
 
-#### Listar Eventos de Inclus„o
+#### Listar Eventos de Inclus√£o
 ```http
 GET /api/InclusionEvents
 ```
@@ -361,14 +361,14 @@ GET /api/InclusionEvents?page=1&pageSize=10&category=Training
 
 ---
 
-### 4. Salary Equity ?? (Requer AutenticaÁ„o)
+### 4. Salary Equity ?? (Requer Autentica√ß√£o)
 
-#### An·lise de Equidade Salarial
+#### An√°lise de Equidade Salarial
 ```http
 GET /api/SalaryEquity
 ```
 
-**Headers ObrigatÛrios:**
+**Headers Obrigat√≥rios:**
 ```http
 Authorization: Bearer {seu_token_jwt}
 ```
@@ -409,13 +409,13 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ---
 
-## ?? AutenticaÁ„o JWT
+## ?? Autentica√ß√£o JWT
 
-A API utiliza JWT (JSON Web Tokens) para autenticaÁ„o. Todos os endpoints a partir de `/api/` requerem um token JWT v·lido no cabeÁalho `Authorization`.
+A API utiliza JWT (JSON Web Tokens) para autentica√ß√£o. Todos os endpoints a partir de `/api/` requerem um token JWT v√°lido no cabe√ßalho `Authorization`.
 
 ### 1. Gerar Token JWT
 
-Endpoint para login e geraÁ„o de token JWT:
+Endpoint para login e gera√ß√£o de token JWT:
 
 ```http
 POST /api/auth/login
@@ -437,13 +437,13 @@ POST /api/auth/login
 }
 ```
 
-### 2. Roles e Permissıes
+### 2. Roles e Permiss√µes
 
 - **Admin**: Acesso completo a todos os endpoints (CRUD)
-- **HR**: Acesso a gest„o de funcion·rios e metas (semana)
-- **User**: Acesso somente a leitura das mÈtricas e eventos
+- **HR**: Acesso a gest√£o de funcion√°rios e metas (semana)
+- **User**: Acesso somente a leitura das m√©tricas e eventos
 
-### 3. ConfiguraÁ„o Atual do JWT
+### 3. Configura√ß√£o Atual do JWT
 
 ```json
 {
@@ -456,7 +456,7 @@ POST /api/auth/login
 }
 ```
 
-?? **IMPORTANTE**: Altere a chave secreta em ambientes de produÁ„o!
+?? **IMPORTANTE**: Altere a chave secreta em ambientes de produ√ß√£o!
 
 ---
 
@@ -469,7 +469,7 @@ ESGDiversity.API/
 ?   ??? GoalProgressController.cs
 ?   ??? InclusionEventsController.cs
 ?   ??? SalaryEquityController.cs
-?   ??? AuthController.cs         # Controlador de AutenticaÁ„o
+?   ??? AuthController.cs         # Controlador de Autentica√ß√£o
 ?
 ??? ?? Data/                     # Contexto do banco de dados
 ?   ??? ESGDiversityDbContext.cs
@@ -477,18 +477,18 @@ ESGDiversity.API/
 ??? ?? Middleware/               # Middlewares customizados
 ?   ??? ExceptionHandlingMiddleware.cs
 ?
-??? ?? Models/                   # Entidades do domÌnio
+??? ?? Models/                   # Entidades do dom√≠nio
 ?   ??? DiversityGoal.cs
 ?   ??? Employee.cs
 ?   ??? InclusionEvent.cs
 ?   ??? SalaryEquityAnalysis.cs
 ?
-??? ?? Services/                 # LÛgica de negÛcio
+??? ?? Services/                 # L√≥gica de neg√≥cio
 ?   ??? DiversityMetricsService.cs
 ?   ??? GoalProgressService.cs
 ?   ??? InclusionEventService.cs
 ?   ??? SalaryEquityService.cs
-?   ??? AuthService.cs            # ServiÁo de AutenticaÁ„o
+?   ??? AuthService.cs            # Servi√ßo de Autentica√ß√£o
 ?
 ??? ?? ViewModels/               # DTOs de resposta
 ?   ??? DiversityMetricsViewModel.cs
@@ -500,14 +500,14 @@ ESGDiversity.API/
 ??? ?? Validators/               # Validadores FluentValidation
 ?   ??? PaginationValidator.cs
 ?
-??? ?? Program.cs                # ConfiguraÁ„o da aplicaÁ„o
-??? ?? appsettings.json          # ConfiguraÁıes
+??? ?? Program.cs                # Configura√ß√£o da aplica√ß√£o
+??? ?? appsettings.json          # Configura√ß√µes
 ??? ?? ESGDiversity.API.csproj   # Arquivo do projeto
 ```
 
 ---
 
-## ?? Comandos ⁄teis
+## ?? Comandos √öteis
 
 ### Gerenciamento do Projeto
 
@@ -521,7 +521,7 @@ dotnet build
 # Compilar em modo Release
 dotnet build --configuration Release
 
-# Executar a aplicaÁ„o
+# Executar a aplica√ß√£o
 dotnet run
 
 # Executar com hot reload (auto-restart)
@@ -530,7 +530,7 @@ dotnet watch run
 # Limpar artefatos de build
 dotnet clean
 
-# Publicar para produÁ„o
+# Publicar para produ√ß√£o
 dotnet publish -c Release -o ./publish
 ```
 
@@ -540,7 +540,7 @@ dotnet publish -c Release -o ./publish
 # Adicionar novo pacote
 dotnet add package NomeDoPacote
 
-# Adicionar pacote com vers„o especÌfica
+# Adicionar pacote com vers√£o espec√≠fica
 dotnet add package NomeDoPacote --version 1.0.0
 
 # Remover pacote
@@ -562,7 +562,7 @@ dotnet ef migrations add NomeDaMigration
 # Aplicar migrations ao banco
 dotnet ef database update
 
-# Reverter ˙ltima migration
+# Reverter √∫ltima migration
 dotnet ef migrations remove
 
 # Listar migrations
@@ -574,17 +574,17 @@ dotnet ef migrations script
 # Dropar o banco de dados
 dotnet ef database drop
 
-# Ver informaÁıes do contexto
+# Ver informa√ß√µes do contexto
 dotnet ef dbcontext info
 
-# Gerar cÛdigo do banco existente (scaffold)
+# Gerar c√≥digo do banco existente (scaffold)
 dotnet ef dbcontext scaffold "ConnectionString" Microsoft.EntityFrameworkCore.SqlServer -o Models
 ```
 
-### InformaÁıes e DiagnÛstico
+### Informa√ß√µes e Diagn√≥stico
 
 ```powershell
-# Verificar vers„o do .NET
+# Verificar vers√£o do .NET
 dotnet --version
 
 # Listar SDKs instalados
@@ -593,7 +593,7 @@ dotnet --list-sdks
 # Listar runtimes instalados
 dotnet --list-runtimes
 
-# Ver informaÁıes do projeto
+# Ver informa√ß√µes do projeto
 dotnet --info
 
 # Verificar problemas no projeto
@@ -609,7 +609,7 @@ dotnet test
 # Executar testes com cobertura
 dotnet test /p:CollectCoverage=true
 
-# Executar testes especÌficos
+# Executar testes espec√≠ficos
 dotnet test --filter "FullyQualifiedName~ClassName"
 ```
 
@@ -617,7 +617,7 @@ dotnet test --filter "FullyQualifiedName~ClassName"
 
 ## ??? Banco de Dados
 
-### InformaÁıes do Banco
+### Informa√ß√µes do Banco
 
 - **Tipo**: SQL Server LocalDB
 - **Nome**: `ESGDiversityDb`
@@ -625,8 +625,8 @@ dotnet test --filter "FullyQualifiedName~ClassName"
 
 ### Tabelas
 
-1. **Employees** - 500 funcion·rios de exemplo
-   - InformaÁıes demogr·ficas
+1. **Employees** - 500 funcion√°rios de exemplo
+   - Informa√ß√µes demogr√°ficas
    - Dados salariais
    - Departamento e cargo
 
@@ -635,19 +635,19 @@ dotnet test --filter "FullyQualifiedName~ClassName"
    - Percentuais alvo e atual
    - Status e prazos
 
-3. **InclusionEvents** - Eventos de inclus„o
-   - DescriÁ„o e categoria
-   - OrÁamento e participantes
+3. **InclusionEvents** - Eventos de inclus√£o
+   - Descri√ß√£o e categoria
+   - Or√ßamento e participantes
    - Status do evento
 
-4. **SalaryEquityAnalyses** - An·lises de equidade
-   - MÈdias salariais por gÍnero
+4. **SalaryEquityAnalyses** - An√°lises de equidade
+   - M√©dias salariais por g√™nero
    - Gap salarial
-   - MÈtricas por departamento
+   - M√©tricas por departamento
 
-### CriaÁ„o Autom·tica do Banco
+### Cria√ß√£o Autom√°tica do Banco
 
-O banco de dados È criado **automaticamente** na primeira execuÁ„o da aplicaÁ„o atravÈs do cÛdigo:
+O banco de dados √© criado **automaticamente** na primeira execu√ß√£o da aplica√ß√£o atrav√©s do c√≥digo:
 
 ```csharp
 using (var scope = app.Services.CreateScope())
@@ -659,19 +659,19 @@ using (var scope = app.Services.CreateScope())
 
 ### Seed Data
 
-500 funcion·rios de exemplo s„o automaticamente gerados com:
-- **GÍneros**: Male, Female, Non-Binary, Prefer not to say
+500 funcion√°rios de exemplo s√£o automaticamente gerados com:
+- **G√™neros**: Male, Female, Non-Binary, Prefer not to say
 - **Etnias**: White, Black, Asian, Hispanic, Indigenous, Mixed, Other
 - **Departamentos**: IT, HR, Finance, Marketing, Sales, Operations, Engineering
 - **Cargos**: Junior, Mid-Level, Senior, Lead, Manager, Director
-- **Sal·rios**: Entre $40,000 e $150,000
+- **Sal√°rios**: Entre $40,000 e $150,000
 
 ### Acessar o Banco de Dados
 
 #### Via SQL Server Management Studio (SSMS)
 1. Abrir SSMS
 2. Conectar a: `(localdb)\mssqllocaldb`
-3. Navegar atÈ: Databases > ESGDiversityDb
+3. Navegar at√©: Databases > ESGDiversityDb
 
 #### Via Visual Studio
 1. View > SQL Server Object Explorer
@@ -679,31 +679,31 @@ using (var scope = app.Services.CreateScope())
 3. Databases > ESGDiversityDb
 
 #### Via Azure Data Studio
-1. Nova conex„o
+1. Nova conex√£o
 2. Server: `(localdb)\mssqllocaldb`
 3. Authentication: Windows Authentication
 
 ### Recriar o Banco de Dados
 
 ```powershell
-# MÈtodo 1: Via EF Core
+# M√©todo 1: Via EF Core
 dotnet ef database drop --force
 dotnet run
 
-# MÈtodo 2: Via SQL
+# M√©todo 2: Via SQL
 sqlcmd -S "(localdb)\mssqllocaldb" -Q "DROP DATABASE ESGDiversityDb"
 dotnet run
 ```
 
 ---
 
-## ?? AutenticaÁ„o JWT
+## ?? Autentica√ß√£o JWT
 
-A API utiliza JWT (JSON Web Tokens) para autenticaÁ„o. Todos os endpoints a partir de `/api/` requerem um token JWT v·lido no cabeÁalho `Authorization`.
+A API utiliza JWT (JSON Web Tokens) para autentica√ß√£o. Todos os endpoints a partir de `/api/` requerem um token JWT v√°lido no cabe√ßalho `Authorization`.
 
 ### 1. Gerar Token JWT
 
-Endpoint para login e geraÁ„o de token JWT:
+Endpoint para login e gera√ß√£o de token JWT:
 
 ```http
 POST /api/auth/login
@@ -725,13 +725,13 @@ POST /api/auth/login
 }
 ```
 
-### 2. Roles e Permissıes
+### 2. Roles e Permiss√µes
 
 - **Admin**: Acesso completo a todos os endpoints (CRUD)
-- **HR**: Acesso a gest„o de funcion·rios e metas (semana)
-- **User**: Acesso somente a leitura das mÈtricas e eventos
+- **HR**: Acesso a gest√£o de funcion√°rios e metas (semana)
+- **User**: Acesso somente a leitura das m√©tricas e eventos
 
-### 3. ConfiguraÁ„o Atual do JWT
+### 3. Configura√ß√£o Atual do JWT
 
 ```json
 {
@@ -744,7 +744,7 @@ POST /api/auth/login
 }
 ```
 
-?? **IMPORTANTE**: Altere a chave secreta em ambientes de produÁ„o!
+?? **IMPORTANTE**: Altere a chave secreta em ambientes de produ√ß√£o!
 
 ---
 
@@ -764,7 +764,7 @@ curl -X POST https://localhost:5001/api/auth/login -H "Content-Type: application
 }
 ```
 
-### 2. Listar Funcion·rios (GET)
+### 2. Listar Funcion√°rios (GET)
 
 ```bash
 curl -X GET https://localhost:5001/api/Employees?page=1&pageSize=10 -H "Authorization: Bearer {seu_token_jwt}"
@@ -793,7 +793,7 @@ curl -X GET https://localhost:5001/api/Employees?page=1&pageSize=10 -H "Authoriz
 }
 ```
 
-### 3. Criar Novo Funcion·rio (POST)
+### 3. Criar Novo Funcion√°rio (POST)
 
 ```bash
 curl -X POST https://localhost:5001/api/Employees -H "Content-Type: application/json" -H "Authorization: Bearer {seu_token_jwt}" -d "{\"name\":\"Jane Doe\",\"email\":\"jane.doe@example.com\",\"gender\":\"Female\",\"ethnicity\":\"Black\",\"department\":\"HR\",\"position\":\"Manager\",\"salary\":75000.00}"
@@ -814,7 +814,7 @@ curl -X POST https://localhost:5001/api/Employees -H "Content-Type: application/
 }
 ```
 
-### 4. Atualizar Funcion·rio (PUT)
+### 4. Atualizar Funcion√°rio (PUT)
 
 ```bash
 curl -X PUT https://localhost:5001/api/Employees/201 -H "Content-Type: application/json" -H "Authorization: Bearer {seu_token_jwt}" -d "{\"salary\":80000.00}"
@@ -835,7 +835,7 @@ curl -X PUT https://localhost:5001/api/Employees/201 -H "Content-Type: applicati
 }
 ```
 
-### 5. Deletar Funcion·rio (DELETE)
+### 5. Deletar Funcion√°rio (DELETE)
 
 ```bash
 curl -X DELETE https://localhost:5001/api/Employees/201 -H "Authorization: Bearer {seu_token_jwt}"
@@ -844,7 +844,7 @@ curl -X DELETE https://localhost:5001/api/Employees/201 -H "Authorization: Beare
 **Response:**
 ```json
 {
-  "message": "Funcion·rio deletado com sucesso."
+  "message": "Funcion√°rio deletado com sucesso."
 }
 ```
 
@@ -852,45 +852,39 @@ curl -X DELETE https://localhost:5001/api/Employees/201 -H "Authorization: Beare
 
 ## ?? Contribuindo
 
-ContribuiÁıes s„o bem-vindas! Siga os passos:
+Contribui√ß√µes s√£o bem-vindas! Siga os passos:
 
 1. Fork o projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanÁas (`git commit -m 'Add some AmazingFeature'`)
+3. Commit suas mudan√ßas (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-### Padrıes de CÛdigo
+### Padr√µes de C√≥digo
 
 - Use **C# Coding Conventions**
 - Mantenha cobertura de testes acima de 80%
-- Documente mÈtodos p˙blicos
-- Siga os princÌpios SOLID
-- Use async/await para operaÁıes I/O
+- Documente m√©todos p√∫blicos
+- Siga os princ√≠pios SOLID
+- Use async/await para opera√ß√µes I/O
 
 ---
 
-## ?? LicenÁa
+## ?? Licen√ßa
 
-Este projeto est· sob a licenÁa MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto est√° sob a licen√ßa MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 
 ## ?? Autores
 
-- **ESG Diversity Team** - [esg@company.com](mailto:esg@company.com)
-
----
-
-## ?? Suporte
-
-Para suporte, envie um email para esg@company.com ou abra uma issue no repositÛrio.
+- Rafaela Carvalho rafamedec@gmail.com
 
 ---
 
 ## ?? Agradecimentos
 
-- Microsoft por fornecer excelente documentaÁ„o do .NET
+- Microsoft por fornecer excelente documenta√ß√£o do .NET
 - Comunidade open source
 - Todos os contribuidores do projeto
 
@@ -898,7 +892,7 @@ Para suporte, envie um email para esg@company.com ou abra uma issue no repositÛr
 
 ## ?? Recursos Adicionais
 
-### DocumentaÁ„o Oficial
+### Documenta√ß√£o Oficial
 
 - [.NET Documentation](https://docs.microsoft.com/en-us/dotnet/)
 - [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/)
@@ -913,4 +907,4 @@ Para suporte, envie um email para esg@company.com ou abra uma issue no repositÛr
 
 ---
 
-**Desenvolvido com ?? para promover diversidade e inclus„o no ambiente corporativo**
+**Desenvolvido com <3 para promover diversidade e inclus√£o no ambiente corporativo**
